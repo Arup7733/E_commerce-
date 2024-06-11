@@ -1,0 +1,137 @@
+img, svg {
+    vertical-align: middle;
+    height: 50px;
+}
+body{
+background-color: rgb(221, 222, 233);
+}
+#cr1{
+    height: 500px;
+}
+#cr2{
+    height: 500px;
+}
+#cr3{
+    height: 500px;
+}
+#bt1{
+  background-color: rgb(174, 255, 0);
+  color: black;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  font-family:sans-serif;
+}
+#bt2{
+  background-color: rgb(78, 114, 222);
+  color: white;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  font-family:sans-serif;
+}
+#bt1:hover{
+  cursor: pointer;
+  height: 42px;
+  width:102px;
+  background-color: white;
+  color: black;
+}
+#bt2:hover{
+  cursor: pointer;
+  height: 42px;
+  width:102px;
+  background-color: white;
+  color: black;
+}
+.card_container{
+  padding: 0px 20px 5px 30px;
+  display: flex;
+}
+#cd1{
+  height: 250px;
+}
+.mynav nav{
+  margin: 3px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(153, 238, 84);
+}
+.mynav nav li{
+  list-style: none;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer{
+  height: 50px;
+  text-align: center;
+}
+.category{
+  align-items: center;
+  display: flex;
+ justify-content: space-evenly;
+ padding: 5px;
+}
+#cat1{
+height: 250px;
+}
+.card{
+  text-align: center;
+}
+#bt3{
+  background-color: rgb(174, 255, 0);
+  border: solid black 1px;
+}
+.mynav1 nav{
+  margin: 3px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(153, 238, 84);
+}
+.mynav1 nav li{
+  list-style: none;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card_container1{
+  padding: 30px 20px 5px 30px;
+  display: flex;
+}
+.mynav2 nav{
+  margin: 3px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(56, 57, 56);
+}
+.mynav2 nav li{
+  list-style: none;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+.brand-logo{
+  height: 200px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.services{
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  padding: 70px 0 0 0;
+}
+.mynav3 nav{
+  height: 0.5px;
+  background-color: black;
+}
+.text{
+  text-align:top ;
+  font-size: 30px;
+  position: absolute;
+  top: 0.05px;
+  color: black;
+}
